@@ -1,0 +1,128 @@
+h1{
+    text-align: center;
+    color: #402723;
+    padding-bottom: 20px;
+}
+
+.container .form-control{
+    margin-bottom: 10px;
+}
+
+.text-decor{
+    text-decoration: line-through;
+}
+
+ul{
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+}
+
+li{
+    border-bottom: 1px dotted #c7a18a;
+} 
+
+body{
+    background: #7B1FA2 url(./img/doit.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    background-size: cover;
+
+}
+
+.container{
+    display: flex;
+    min-height: 700px;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+.buttons{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+.counter_box{
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    flex-direction: row;
+
+}
+
+.doing{
+    margin: auto 30px;
+}
+
+
+/* Modal */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+    max-width: 50%;
+    position: relative;
+    background-color: #ca9f7d;
+    margin: auto;
+    padding: 0;
+    border: 5px solid #ca9f7d;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 12px;
+    background-color: #17a2b8;
+    color: white;
+}
+
+.modal-footer {
+    padding: 2px 12px;
+    background-color: #17a2b8;
+    color: white;
+}
