@@ -1,4 +1,4 @@
-# HomeWork_ToDo
+# HomeWork_ToDo :pencil:
 ### https://sergey-draft.github.io/HomeWork_ToDo/
 #### A nice and convenient to-do list created in javascript!
 ----
